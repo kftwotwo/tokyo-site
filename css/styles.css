@@ -12,9 +12,56 @@ body, .container {
   text-shadow: 3px 2px #333;
 }
 
+h1, h2, .panel-title {
+  font-family: 'Raleway', sans-serif;
+}
+
 .well {
   background-color: #EEE;
   color: #333;
   font-size: 1.3em;
+}
+p {
+  text-align: center;
+}
 
+.tokyo {
+  padding: 10px 50px 10px 50px;
+}
+
+.well h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 35px;
+}
+
+#gold .panel-heading {
+  background-color: gold;
+}
+
+#silver .panel-heading {
+  background-color: silver;
+}
+
+#bronze .panel-heading {
+  background-color: #cc6633;
+}
+
+.panel-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 40px 40px 0 0;
+}
+
+.panel {
+  border-radius: 40px 0 ;
+}
+.panel-heading {
+  border-radius:40px 0 0 0;
 }
