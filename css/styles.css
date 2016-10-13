@@ -1,0 +1,20 @@
+body, .container {
+  background-color: #333;
+}
+
+.jumbotron {
+  background: url("../img/tokyo.jpg");
+  color: #FFF;
+  text-align: center;
+}
+
+.jumbotron * {
+  text-shadow: 3px 2px #333;
+}
+
+.well {
+  background-color: #EEE;
+  color: #333;
+  font-size: 1.3em;
+
+}
